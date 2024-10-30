@@ -1,0 +1,37 @@
+# Ignore build artifacts
+/dist/
+/build/
+/coverage/
+
+# Ignore IDE-specific files
+*.idea/
+.vscode/
+
+# Ignore virtual environment files
+venv/
+.venv/
+env/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore test coverage reports
+.coverage*
+
+# Ignore database migration files
+migrations/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+*~
+
+# Ignore local development configurations
+config.py
